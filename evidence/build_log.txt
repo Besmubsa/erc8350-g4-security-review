@@ -1,0 +1,4 @@
+solc 0.8.24 compile: runtime contracts (optimizer 200, cancun)
+
+Deploy.s.sol harness (import prefixes rewritten to local forge-std v1.9.7, code unchanged)
+rc=0 DEPLOY.S.SOL COMPILE OK

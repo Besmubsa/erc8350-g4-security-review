@@ -1,0 +1,406 @@
+{
+  "success": true,
+  "error": null,
+  "results": {
+    "detectors": [
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "attest",
+            "source_mapping": {
+              "start": 1521,
+              "length": 737,
+              "filename_relative": "src/extensions/DeletionAttestation.sol",
+              "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+              "filename_short": "src/extensions/DeletionAttestation.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DeletionAttestation",
+                "source_mapping": {
+                  "start": 683,
+                  "length": 1577,
+                  "filename_relative": "src/extensions/DeletionAttestation.sol",
+                  "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+                  "filename_short": "src/extensions/DeletionAttestation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "attest(bytes32,bytes32,bytes32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "(recordedSpace,None,None,None) = registry.transition(transitionId)",
+            "source_mapping": {
+              "start": 1703,
+              "length": 62,
+              "filename_relative": "src/extensions/DeletionAttestation.sol",
+              "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+              "filename_short": "src/extensions/DeletionAttestation.sol",
+              "is_dependency": false,
+              "lines": [
+                39
+              ],
+              "starting_column": 9,
+              "ending_column": 71
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "attest",
+                "source_mapping": {
+                  "start": 1521,
+                  "length": 737,
+                  "filename_relative": "src/extensions/DeletionAttestation.sol",
+                  "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+                  "filename_short": "src/extensions/DeletionAttestation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "DeletionAttestation",
+                    "source_mapping": {
+                      "start": 683,
+                      "length": 1577,
+                      "filename_relative": "src/extensions/DeletionAttestation.sol",
+                      "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+                      "filename_short": "src/extensions/DeletionAttestation.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "attest(bytes32,bytes32,bytes32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "DeletionAttestation.attest(bytes32,bytes32,bytes32) (src/extensions/DeletionAttestation.sol#37-48) ignores return value by (recordedSpace,None,None,None) = registry.transition(transitionId) (src/extensions/DeletionAttestation.sol#39)\n",
+        "markdown": "[DeletionAttestation.attest(bytes32,bytes32,bytes32)](src/extensions/DeletionAttestation.sol#L37-L48) ignores return value by [(recordedSpace,None,None,None) = registry.transition(transitionId)](src/extensions/DeletionAttestation.sol#L39)\n",
+        "first_markdown_element": "src/extensions/DeletionAttestation.sol#L37-L48",
+        "id": "9c4c3190202ed409bf86310af16600c422f1168f58e1f3f60fa25014676dbcae",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "reference": "https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return"
+      },
+      {
+        "elements": [
+          {
+            "type": "function",
+            "name": "attest",
+            "source_mapping": {
+              "start": 1521,
+              "length": 737,
+              "filename_relative": "src/extensions/DeletionAttestation.sol",
+              "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+              "filename_short": "src/extensions/DeletionAttestation.sol",
+              "is_dependency": false,
+              "lines": [
+                37,
+                38,
+                39,
+                40,
+                41,
+                42,
+                43,
+                44,
+                45,
+                46,
+                47,
+                48
+              ],
+              "starting_column": 5,
+              "ending_column": 6
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "contract",
+                "name": "DeletionAttestation",
+                "source_mapping": {
+                  "start": 683,
+                  "length": 1577,
+                  "filename_relative": "src/extensions/DeletionAttestation.sol",
+                  "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+                  "filename_short": "src/extensions/DeletionAttestation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    13,
+                    14,
+                    15,
+                    16,
+                    17,
+                    18,
+                    19,
+                    20,
+                    21,
+                    22,
+                    23,
+                    24,
+                    25,
+                    26,
+                    27,
+                    28,
+                    29,
+                    30,
+                    31,
+                    32,
+                    33,
+                    34,
+                    35,
+                    36,
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48,
+                    49
+                  ],
+                  "starting_column": 1,
+                  "ending_column": 2
+                }
+              },
+              "signature": "attest(bytes32,bytes32,bytes32)"
+            }
+          },
+          {
+            "type": "node",
+            "name": "(controller,None,None) = registry.spaceAuthorization(spaceId)",
+            "source_mapping": {
+              "start": 1903,
+              "length": 61,
+              "filename_relative": "src/extensions/DeletionAttestation.sol",
+              "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+              "filename_short": "src/extensions/DeletionAttestation.sol",
+              "is_dependency": false,
+              "lines": [
+                42
+              ],
+              "starting_column": 9,
+              "ending_column": 70
+            },
+            "type_specific_fields": {
+              "parent": {
+                "type": "function",
+                "name": "attest",
+                "source_mapping": {
+                  "start": 1521,
+                  "length": 737,
+                  "filename_relative": "src/extensions/DeletionAttestation.sol",
+                  "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+                  "filename_short": "src/extensions/DeletionAttestation.sol",
+                  "is_dependency": false,
+                  "lines": [
+                    37,
+                    38,
+                    39,
+                    40,
+                    41,
+                    42,
+                    43,
+                    44,
+                    45,
+                    46,
+                    47,
+                    48
+                  ],
+                  "starting_column": 5,
+                  "ending_column": 6
+                },
+                "type_specific_fields": {
+                  "parent": {
+                    "type": "contract",
+                    "name": "DeletionAttestation",
+                    "source_mapping": {
+                      "start": 683,
+                      "length": 1577,
+                      "filename_relative": "src/extensions/DeletionAttestation.sol",
+                      "filename_absolute": "/tmp/g4scope/src/extensions/DeletionAttestation.sol",
+                      "filename_short": "src/extensions/DeletionAttestation.sol",
+                      "is_dependency": false,
+                      "lines": [
+                        13,
+                        14,
+                        15,
+                        16,
+                        17,
+                        18,
+                        19,
+                        20,
+                        21,
+                        22,
+                        23,
+                        24,
+                        25,
+                        26,
+                        27,
+                        28,
+                        29,
+                        30,
+                        31,
+                        32,
+                        33,
+                        34,
+                        35,
+                        36,
+                        37,
+                        38,
+                        39,
+                        40,
+                        41,
+                        42,
+                        43,
+                        44,
+                        45,
+                        46,
+                        47,
+                        48,
+                        49
+                      ],
+                      "starting_column": 1,
+                      "ending_column": 2
+                    }
+                  },
+                  "signature": "attest(bytes32,bytes32,bytes32)"
+                }
+              }
+            }
+          }
+        ],
+        "description": "DeletionAttestation.attest(bytes32,bytes32,bytes32) (src/extensions/DeletionAttestation.sol#37-48) ignores return value by (controller,None,None) = registry.spaceAuthorization(spaceId) (src/extensions/DeletionAttestation.sol#42)\n",
+        "markdown": "[DeletionAttestation.attest(bytes32,bytes32,bytes32)](src/extensions/DeletionAttestation.sol#L37-L48) ignores return value by [(controller,None,None) = registry.spaceAuthorization(spaceId)](src/extensions/DeletionAttestation.sol#L42)\n",
+        "first_markdown_element": "src/extensions/DeletionAttestation.sol#L37-L48",
+        "id": "cc1f38a062c84f709f96b0933f6f170669aa016ec08db7b92c37dcc6bba3a585",
+        "check": "unused-return",
+        "impact": "Medium",
+        "confidence": "Medium",
+        "reference": "https://github.com/crytic/slither/wiki/Detector-Documentation#unused-return"
+      }
+    ]
+  }
+}

@@ -1,0 +1,7 @@
+slither 0.11.6 summary (102 detectors; run per-target on a SHA-256-verified copy of the frozen source):
+targets: AgentMemoryStateRegistry, AuditGrant, DeletionAttestation, SpaceDescriptor (+ imports: ECDSA, PrivateCommitment, interfaces)
+  [Informational] assembly: 1
+  [Informational] low-level-calls: 1
+  [Low         ] timestamp: 1
+  [Medium      ] incorrect-equality: 1
+  [Medium      ] unused-return: 5

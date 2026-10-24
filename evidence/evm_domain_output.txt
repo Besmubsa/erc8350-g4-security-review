@@ -1,0 +1,6 @@
+deployed at: 0xF2E246BB76DF876Cef8b38ae84130F4F55De395b
+computeDomainSeparator(1, 0x4444..): 0xc8e1b4a128b4de377427c24ccea92cac6d7c77f8fe55f4b2984432bbc3b3d5b9
+EXPERIENCE_DELTA_TYPEHASH(): 0x4f020f86bc06d852f1fde17853b4d92a70214eeab8e09718028124af097d070d
+vector domainSeparator        : 0xc8e1b4a128b4de377427c24ccea92cac6d7c77f8fe55f4b2984432bbc3b3d5b9
+MATCH vs vector: True
+NOTE: independent Python recompute (with correct address padding) matches the vector; see vector_recompute_output.txt
