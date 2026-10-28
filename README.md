@@ -31,3 +31,8 @@ frozen commit; file digests are attested in the report's Section 3.
 
 - Report SHA-256: `822d2a3642fe9006945ba8bf074455da6b47b91352c1992606c026ca4be74f6b`
 - Published (ISO-8601): `2026-10-24T06:30:00Z`
+
+
+## Small paid technical tasks
+
+I am open to clearly scoped, small technical tasks such as bot prototypes, Python automation, documentation improvements, reproducible bug reports, and focused code-review support. See [SERVICES.md](SERVICES.md) for scope, starting prices, and how to request a quote.
