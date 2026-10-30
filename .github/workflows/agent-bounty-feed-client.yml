@@ -1,0 +1,40 @@
+name: Agent Bounty Feed MCP client
+
+on:
+  push:
+    branches: [agent-bounty-feed-client]
+    paths:
+      - "examples/agent-bounty-feed-client/**"
+      - ".github/workflows/agent-bounty-feed-client.yml"
+  pull_request:
+    paths:
+      - "examples/agent-bounty-feed-client/**"
+      - ".github/workflows/agent-bounty-feed-client.yml"
+  workflow_dispatch:
+
+jobs:
+  tests:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Run offline MCP protocol tests
+        working-directory: examples/agent-bounty-feed-client
+        run: python -m unittest -v
+
+  live-smoke:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Query the live public MCP feed
+        working-directory: examples/agent-bounty-feed-client
+        run: python client.py stats
